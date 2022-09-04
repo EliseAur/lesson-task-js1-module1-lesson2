@@ -4,13 +4,13 @@
 // Question 1
 // Select the h3 element and change its value to Hello instead of Welcome.
 
-var headingOne = document.querySelector("h3");
+const headingOne = document.querySelector("h3");
 headingOne.innerHTML = "Hello";
 
 // Question 2
 // Select all the h4 elements on the page and change their margin-bottom style to -20px.
 
-var headingTwo = document.querySelectorAll("h4");
+const headingTwo = document.querySelectorAll("h4");
 
 for (let i = 0; < headingTwo.length; i++) {
     
