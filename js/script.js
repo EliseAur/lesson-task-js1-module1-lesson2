@@ -6,6 +6,7 @@
 
 const headingOne = document.querySelector("h3");
 headingOne.innerHTML = "Hello";
+headingOne.style.color = "red";
 
 // Question 2
 // Select all the h4 elements on the page and change their margin-bottom style to -20px.
